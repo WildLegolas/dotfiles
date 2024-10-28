@@ -1,0 +1,12 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+[┌─](bold #44475a)[{](bold #44475a)[ topspook ](bold #FF8700)[}](bold #44475a)[ λ ](bold #FF8700)[{ ](bold #44475a)$directory[}](bold #44475a) $all$character
+
+"""
+[character]
+success_symbol = "[└─](bold #44475a)[❯](bold #44475a)"
+error_symbol = "[└](bold #44475a)[✘](bold red)(bold blue)[❯](bold #44475a)"
+
+[directory]
+style = 'italic bold #FF8700'
